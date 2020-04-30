@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && node ./tmp/build/build.js"
+    "build": "tsc && node ./tmp/build/build.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Microsoft",
   "license": "Apache-2.0",
@@ -19,7 +21,8 @@
     "mkdirp": "^0.5.1",
     "rimraf": "^2.5.2",
     "semver": "^5.3.0",
-    "tar.gz": "^1.0.5"
+    "tar.gz": "^1.0.5",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/glob": "^5.0.30",
@@ -30,5 +33,6 @@
     "@types/rimraf": "0.0.28",
     "@types/yeoman-generator": "0.0.30",
     "typescript": "^2.0.0"
-  }
+  },
+  "snyk": true
 }
