@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - webdriverio > archiver > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - webdriverio > inquirer > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - yo > yeoman-environment > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - webdriverio > archiver > archiver-utils > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - webdriverio > archiver > async > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - webdriverio > archiver > zip-stream > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - webdriverio > gaze > globule > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - yo > tabtab > inquirer > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - yo > yeoman-environment > inquirer > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - yo > yeoman-environment > grouped-queue > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
+    - webdriverio > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T05:02:46.872Z'
